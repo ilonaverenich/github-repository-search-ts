@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Main: React.FC = () => {
+export const Main: React.FC  = () => {
   return (
     <div>
         
