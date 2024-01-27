@@ -12,7 +12,7 @@ export const Main: React.FC = () => {
 
   const fetchData = async () => {
     const octokit = new Octokit({
-      auth: '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', // Replace with your actual access token
+      auth: 'YOURS TOKEN',
     });
 
     try {
@@ -54,7 +54,7 @@ export const Main: React.FC = () => {
           ))}
         </ul>
       ) : (
-        <p>No repositories found for the provided username.</p>
+        <p>Репозиторий не найден</p>
       )}
     </div>
   );
